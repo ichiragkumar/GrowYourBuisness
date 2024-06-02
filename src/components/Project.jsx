@@ -14,7 +14,7 @@ const Project = () => {
 
 
         <div className='flex justify-ceter mt-10'>
-            <div><img src={projectsImg} className='w-[470px] h-[367px]' alt="" /></div>
+            <div><img src={projectsImg} className='w-[670px] h-[367px]' alt="" /></div>
             <div className='flex flex-col justify-center gap-5 h-[367px] ml-3 cursor-pointer'>
 
                 <div className='w-[370px]  bg-gray-100 p-2 pb-4 hover:bg-gray-300'>
