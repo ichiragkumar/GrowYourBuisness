@@ -2,6 +2,9 @@ import React from 'react'
 import service1 from "../assets/service1.png"
 import service2 from "../assets/service2.png"
 import service3 from "../assets/service3.png"
+import dot1 from "../assets/dot1.png"
+import dot2 from "../assets/dot2.png"
+
 
 const WhatWeDoSection = () => {
   return (
@@ -25,11 +28,17 @@ const WhatWeDoSection = () => {
             </div>
         </div>
 
-        <div className='flex justify-evenly mr-[250px] mt-10 gap-1'>
+        <div className='flex justify-evenly mr-[200px] mt-10 gap-1'>
             <div><img src={service1} alt="" /></div>
             <div><img src={service2} alt="" /></div>
             <div><img src={service3} alt="" /></div>
             <div><img src={service2} alt="" /></div>
+        </div>
+
+        <div className='flex flex-items mt-10 gap-6 cursor-pointer'> 
+            <div className='mb-1'> <img src={dot1} alt="" /></div>
+            <div className='mt-2'><img src={dot2} alt="" /></div>
+            <div className='mt-2'> <img src={dot2} alt="" /></div>
         </div>
     </div>
   )
