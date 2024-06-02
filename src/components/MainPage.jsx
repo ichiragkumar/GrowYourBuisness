@@ -2,15 +2,15 @@ import React from 'react'
 import mainHero from "../assets/hero.png"
 const MainPage = () => {
   return (
-    <div className='flex justify-between ml-[240px] mr-[30px] mt-[50px] w-[920px] '>
+    <div className='flex justify-between ml-[210px] mr-[30px] mt-[50px] max-w-[1140px]'>
             <div className='flex flex-col justify-center'>
-                <div className='text-[#FF3147] text-xl'>
-                    <h2>Award Wining </h2>
+                <div className='text-[#FF3147] text-xl font-medium' >
+                    <h2>AWARD WINNING </h2>
                 </div>
                 <div className='text-black text-4xl font-bold mt-10'>
                     <h2>DIGITAL MARKETING <br/> AGENCY</h2>
                 </div>
-                <div className='mt-7'>
+                <div className='mt-7 text-xl' >
                     <p>
                     Morbi sed lacus nec risus finibus feugiat et fermentum nibh. 
                     Pellentesque vitae ante at elit fringilla ac at purus, 
@@ -23,7 +23,7 @@ const MainPage = () => {
                 </div>
             </div>
             <div className='m-10'> 
-                <img src={mainHero} className='w-[587px]  h-[537px]' alt="Not Found" />
+                <img src={mainHero} className='w-[1187px]  h-[537px]' alt="Not Found" />
             </div>
     </div>
   )
