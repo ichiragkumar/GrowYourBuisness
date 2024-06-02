@@ -28,11 +28,11 @@ const WhatWeDoSection = () => {
             </div>
         </div>
 
-        <div className='flex justify-evenly mr-[200px] mt-10 gap-1'>
-            <div><img src={service1} alt="" /></div>
-            <div><img src={service2} alt="" /></div>
-            <div><img src={service3} alt="" /></div>
-            <div><img src={service2} alt="" /></div>
+        <div className='flex justify-evenly  mt-10 gap-2'>
+            <div><img src={service1} className='w-[370px] h-[526px]' alt="" /></div>
+            <div><img src={service2} className='w-[370px] h-[526px]' alt="" /></div>
+            <div><img src={service3} className='w-[370px] h-[526px]' alt="" /></div>
+            <div><img src={service2} className='w-[370px] h-[526px]' alt="" /></div>
         </div>
 
         <div className='flex flex-items mt-10 gap-6 cursor-pointer'> 
