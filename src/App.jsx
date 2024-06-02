@@ -1,6 +1,7 @@
 import WhyToChooseUs from './components/Choose'
 import MainPage from './components/MainPage'
 import WhatWeDoSection from './components/WhatweDo'
+import Project from './components/Project'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <MainPage/>
       <WhatWeDoSection/>
       <WhyToChooseUs/>
+      <Project/>
     </>
   )
 }
